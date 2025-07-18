@@ -1,0 +1,536 @@
+@charset "UTF-8";
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e8d9bf;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.7%;
+    padding-right: 7.6%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.header__nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+.header__nav a{
+    color:#fff ;
+    font-weight: bold;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+      "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+.hamburger,
+.header__nav-sp{
+    display: none;
+}
+
+.logo{
+    width: 226px;
+}
+
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 0 10px;
+}
+
+.line{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.line1{
+    font-size: 30px;
+    padding-top: 104px;
+    padding-bottom: 59px;
+    line-height: 3.86;
+}
+
+.line2{
+    font-size: 82px;
+    padding-bottom: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.line3{
+    font-size: 23px;
+    line-height: 1.65;
+    letter-spacing: 0.01em;
+}
+
+picture{
+    height: auto;
+    width: 50%;
+}
+.coffee{
+    border-bottom-right-radius: 80px;
+}
+
+#about-us{
+    padding-top: 100px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+
+}
+
+.text{
+    flex-direction: column;
+    padding-left: 80px;
+    width: 50%;
+}
+
+.about-logo{
+    height: 78px;
+    width: auto;
+    padding-bottom: 60px;
+}
+
+.line2-1{
+    font-size: 44px;
+    padding-bottom: 40px;
+    line-height: 1.38;
+}
+
+.line2-2{
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+#menu{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.menu-container ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 38px;
+    margin: -10px 0 25px 14px;
+    color: #d30202;
+    max-width: 300px;
+}
+
+.menu-logo{
+    padding-top: 108px;
+    padding-bottom: 47px;
+    text-align: center;
+} 
+
+.menu-logo img{
+    height: 78px;
+    width: auto;
+}
+
+.menu-container img{
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    border-top-right-radius: 50px;
+}
+
+.menu-container p{
+    font-size: 17px;
+    max-width: 300px;
+    line-height: 1.47em;
+}
+.menu-container li{
+    width: 30%;
+}
+
+#gallery{
+    text-align: center;
+}
+
+.gallery-logo img{
+    width: auto;
+    height: 78px;
+    padding-top: 100px;
+    padding-bottom: 26px;
+}
+
+.photos2{
+    display: flex;
+}
+.photos2 img{ 
+    width: 20%;
+    height: auto;
+    
+}
+
+#event{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.event-logo img{
+    height: 78px;
+    width: auto;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+.box{
+    max-width:1000px ;
+    background-color: #ffffff;
+    border: 3.68px solid #4f260b;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.items p{
+    line-height: 1.95em;
+}
+
+.news{
+    border-bottom: solid #4f260b;
+}
+.items a{
+    display: flex;
+    font-size: 23px;
+    gap: 50px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+
+#access{
+    text-align: center;
+}
+.access-logo img{
+    width: auto;
+    height: 78px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.map{
+    height: 470px;
+}
+.map iframe{
+    height: 100%;
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+footer{
+    background-color: #fff;
+}
+.footer-container{
+    display: flex;
+    gap: 65px;
+    margin: 0 auto;
+    padding:80px 0;
+    max-width: 1000px;
+}
+
+.footer-logo img{
+    height: 50px;
+    width: auto;
+}
+
+.footer-text p{
+    font-size: 20px;
+    line-height: 2.67em;
+}
+
+.sign{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 125px;
+    height: auto;
+
+}
+
+.sp-br{
+    display: none;
+}
+
+.img-sp{
+    display: none;
+}
+
+@media screen and (max-width:1100px){
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    
+    .hamburger span{
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        top: 14px;
+        right: 0;
+        transition: 0.3s;
+    }
+
+    .hamburger span::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+            top: -14px;
+            right: 0;
+            transition: 0.3s;
+    }
+    .hamburger span::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        bottom: -14px;
+        right: 0;
+        transition: 0.3s;
+    }
+
+    .open span{
+        background-color: transparent;
+    }
+
+    .open span::before{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .open span::after{
+        transform: rotate(-45deg);
+        bottom: 0;
+    }
+    .header__nav{
+        display:none ;
+    }
+
+    .header__nav-sp{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: #000000b1;
+        top: 0;
+        left: 0;
+    }
+    .header__nav-sp a{
+        color: #fff;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+      "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;;
+    }
+
+    .header__nav-sp ul{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .line2 {
+        font-size: 70px;
+    }
+
+    .line2-1{
+        font-size: 30px;
+    }
+
+    .line3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .line1 {
+        padding-top: 38px;
+        padding-bottom: 22px;
+        font-size: 17px;
+        
+    }
+    
+    .line2 {
+        padding-bottom: 25px;
+        font-size: 38px;
+        line-height: 1.16em;
+    }
+    .line3{
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+
+    .sp-br{
+        display: block;
+    }
+    
+    #about-us{
+        flex-direction: column;
+        padding-top: 54px;
+        align-items: flex-start;
+
+    }
+    
+    .text{
+        display: contents;
+    }
+
+    .about-logo{
+        order: 1;
+        height: 45px;
+    }
+
+    #about-us h2{
+        margin: 0 auto
+    }
+
+    .coffee{
+        border-bottom-right-radius: 0;
+    }
+
+    .wrapper picture{
+        order: 2;
+        width: 100%;
+    }
+
+    .line2-1{
+        order: 3;
+        font-size: 36px;
+        padding-top: 32px;
+        padding-bottom: 30px;
+        line-height: 1.25em;
+
+
+    }
+    .line2-2{
+        order: 4;
+        line-height: 1.75em;
+    }
+
+    .menu-logo{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .menu-logo img{
+        height: 45px;
+    }
+
+    .menu-container img{
+            width: 100%;
+            max-width: none;
+    }
+
+    .menu-container ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .menu-container li{
+        width: 80%;
+    }
+
+    .menu-container p{
+        line-height: 1.6em;
+        width: 100%;
+        max-width: none;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+
+    .gallery-logo img{
+        height: 45px;
+    }
+    
+    .img-pc{
+        display: none;
+    }
+
+    .img-sp{
+        display: block;
+    }
+
+    .photos2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .event-logo img{
+        height: 45px;
+        padding-top: 27px;
+        padding-bottom: 15px;
+    }
+
+    .box{
+        text-align: left;
+    }
+
+    .items a{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .items p{
+        font-size: 16px;
+    }
+
+    .date{
+        padding-top: 25px;
+    }
+
+    .access-logo img{
+        height:45px ;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .map{
+        height: auto;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-text p{
+        font-size: 18px;
+        line-height: 1.72em;
+    }
+
+    .footer-container{
+        padding-top: 40px;
+        padding-bottom: 32px;
+        gap: 35px;
+    }
+}
